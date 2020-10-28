@@ -56,8 +56,8 @@ module.exports = {
         name: 'ahmed/luma_child',
         locale: 'en_US',
         files: [
-            'css/styles-old',
-            'css/styles'
+            'css/styles-m',
+            'css/styles-l'
         ],
         dsl: 'less'
     }

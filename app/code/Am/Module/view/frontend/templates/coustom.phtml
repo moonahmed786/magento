@@ -1,12 +1,29 @@
 <?php //declare(strict_types=1);?>
-<!--<script type="text/x-magento-init">-->
-<!--{-->
-<!--    "#help":{-->
-<!--        "Am_Module/js/amjs-example":{-->
-<!--            "base_url": "--><?//= $block->escapeJs($block->getBaseUrl())?><!--"-->
-<!--        }-->
-<!--    }-->
-<!--}-->
-<!--</script>-->
-<!--<div id="help"></div>-->
+<script type="text/x-magento-init">
+{
+    "#help":{
+        "Am_Module/js/amjs-example":{
+            "base_url": "<?= $block->escapeJs($block->getBaseUrl())?>"
+        }
+    }
+}
+</script>
+<div id="help"></div>
 <h1>jsgdhjgs</h1>
+<script type="text/x-magento-init">
+    {
+        "#registartion":{
+            "Magento_Ui/js/core/app":{
+                "components":{
+                    "registartion":{
+                        "component": "Magento_Checkout/js/view/registartion",
+                        "config": {
+                            "registartionUrl":"<?= $block->getCreateAccountUrl()?>"
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+</script>

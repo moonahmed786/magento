@@ -8,7 +8,9 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 <body>
     <referenceContainer name="content">
-        <block name="am-js" template="Am_Module::js-container.phtml"/>
+<!--        <block name="am-js" template="Am_Module::js-container.phtml"/>-->
+<!--        <block name="registartion-js" template="Am_Module::registration-test.phtml"/>-->
+        <block name="uicomponentjs-js" template="Am_Module::uicomponent.phtml"/>
     </referenceContainer>
 </body>
 </page>

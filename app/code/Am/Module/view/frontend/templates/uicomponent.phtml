@@ -1,0 +1,18 @@
+<script type="text/x-magento-init">
+    {
+        "*":{
+            "Magento_Ui/js/core/app": {
+                "components":{
+                    "my_component":{
+                        "component": "Am_Module/js/uicomponentjs",
+                        "moduleName": "<?= $block->escapeJs($block->getBaseUrl()); ?>"
+                    }
+                }
+            }
+        }
+    }
+</script>
+<div data-bind="scope: 'my_component'">
+    <div data-bind="text: getTitle()"></div>
+<!--    <button class="title" data-bind="click: getTitle"><!--&#8722;--></button>-->
+</div>
